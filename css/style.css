@@ -1,0 +1,269 @@
+@font-face {
+    font-family: TeamFont;
+    src: url("../Fonts/Proxima Nova Alt Bold.otf");
+}
+
+@font-face {
+    font-family: TeamPFont;
+    src: url("../Fonts/Questrial-Regular.ttf");
+}
+
+@font-face {
+    font-family: TeamPSFont;
+    src: url("../Fonts/Quicksand-Regular.otf");
+}
+
+@font-face {
+    font-family: NameFont;
+    src: url("../Fonts/Politica Bold.otf");
+}
+
+.main-content{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1500px;
+}
+
+main{
+    margin-top: 40px;
+}
+
+.text-team h1{
+    font-family: TeamFont;
+    color: #606060;
+    font-size: 30px;
+    margin-left: -41px;
+}
+
+.text-team p{
+    font-family: TeamPFont;
+    color: #bd8f59;
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -41px;
+}
+@media screen and (min-width: 992px) {
+  .text-team h1{
+      margin-left: -11px;
+  }
+  .text-team p{
+      margin-left: -11px;
+}
+}
+
+nav{
+    background-color: white !important;
+    color: black !important;
+    box-shadow: none;
+}
+
+.brand-logo{
+    background: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96px;
+    height: 50px;
+    margin-top: 14px;
+    margin-left: 28px;
+}
+
+.mobile-bar{
+    background: url(../img/mobile-bar.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 12px;
+    margin-top: 22px;
+    margin-right: 32px;
+}
+
+.side-page span{
+    width: 2px;
+    height: 64px;
+    background-color: #cccccc;
+    display: block;
+    margin-left: 71px;
+    margin-top: 90px;
+}
+
+.side-page-footer span{
+    width: 200px;
+    height: 2px;
+    background-color: #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-txt span{
+    width: 2px;
+    height: 133px;
+    background-color: #cccccc;
+    display: block;
+    margin-left: 35px;
+    margin-top: 51px;
+}
+
+.about-txt-md span{
+    height: 2px;
+    width: 133px;
+    background-color: #cccccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-txt{
+    margin-top: 13px;
+}
+
+.about-txt-md h2{
+    font-family: TeamFont;
+    color: #cccccc;
+    font-size: 35px;
+}
+
+.about-txt-md h1{
+    font-size: 30px;
+    font-family: TeamFont;
+    color: #606060;
+}
+
+.about-txt-md p{
+    font-family: TeamPFont;
+    color: #bd8f59;
+    font-weight: bold;
+}
+
+.about-txt-md h4{
+    font-family: TeamPFont;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about-txt h2{
+    transform: rotate(-90deg);
+    font-family: TeamFont;
+    color: #cccccc;
+    font-size: 10px;
+    width: 94px;
+    margin-left: -11px;
+    margin-top: 25px;
+}
+
+.side-page h3{
+    transform: rotate(-90deg);
+    font-family: TeamPSFont;
+    color: #606060;
+    font-size: 15px;
+    width: 181px;
+    margin-left: -21px;
+    margin-top: 88px;
+}
+
+.side-page-footer h3{
+    font-family: TeamPSFont;
+    color: #606060;
+    font-size: 25px;
+}
+
+.content-page{
+    padding-left: 0px !important;
+}
+
+
+.social-icon{
+    color: #606060;
+    margin-left: 63px;
+    margin-top: 109px;
+}
+.social-icon li i{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icon-footer{
+    color: #606060;
+}
+
+.social-icon-footer li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.social-icon-footer li i{
+    font-size: 20px;
+}
+
+.vide h4{
+    font-family: TeamPFont;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+}
+
+.vide{
+    width: 150px;
+}
+
+.part1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.part2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.part3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-perso-center{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .image-perso-center{
+        margin-top: 20px;
+    }
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-top: -23px;
+    margin-left: -1px;
+}
+
+.name-perso{
+    font-family: NameFont;
+    font-size: 30px;
+    margin-top: -11px;
+    z-index: 1;
+}
+
+.devid{
+    background-color: #bd8f59;
+    height: 3px;
+    width: 25px;
+}
+
+.profile{
+    font-family: TeamPFont;
+    color: #bd8f59;
+}
